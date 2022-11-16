@@ -1,0 +1,91 @@
+
+@media(max-width:950px){
+    .uniName{
+        font-size: 25px;
+    }
+}
+@media(max-width:800px){
+    .uniName{
+        font-size: 25px;
+    }
+    .page3-text p{
+        font-size: 14px;
+    }
+}
+@media(max-width:700px){
+    .uniName{
+        font-size: 20px;
+    }
+    .fiftyYears{
+        font-size: 18px;
+    }
+    .fromtoDate{
+        font-size: 18px;
+    }
+    .dear-friends{
+        font-size: 25px;
+    }
+    .rector-img{
+        width: 100%;
+        max-width: 200px;
+    }
+    .page3-text p{
+        font-size: 12px;
+    }
+}
+@media(max-width:600px){
+    .rector-img{
+        width: 100%;
+        max-width: 150px;
+    }
+}
+@media(max-width:500px){
+    .page-3{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .rector-img{
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    .dear-friends{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .page-2 h2{
+        font-size: 18px;
+    }
+    .page-2 p{
+        font-size: 14px;
+    }
+    .rector-bottom{
+        bottom: 100px;
+    }
+}
+@media(max-width:400px){
+    .page3-text p{
+        font-size: 10px;
+    }
+    .page-3{
+        gap: 5px;
+        flex-direction: column;
+    }
+    .rector-img{
+        width: 80px;
+        height: 80px;
+    }
+    .uniName{
+        font-size: 18px;
+    }
+    .fiftyYears{
+        font-size: 16px;
+    }
+    .fromtoDate{
+        font-size: 16px;
+    }
+    .adress{
+        font-size: 16px;
+    }
+}

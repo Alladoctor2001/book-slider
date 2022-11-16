@@ -1,0 +1,197 @@
+
+* {box-sizing:border-box;
+margin: 0;
+padding: 0;}
+body{
+    background-color: blue;
+    padding-left:30px;
+    padding-right: 30px;
+
+}
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin:0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: white;
+  height: 80vh;
+  padding: 30px 30px;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -10px;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    left: -10px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+  
+}
+.page-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    position: relative;
+}
+.uniName{
+    text-align: center;
+
+}
+.fiftyYears{
+    text-align: center;
+}
+.fiftyYears span{
+    color: blue;
+}
+.fromtoDate{
+    text-align: center;
+}
+.adress{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}
+.page-number{
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    font-weight: bold;
+}
+/* -----------2 */
+.page-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    overflow-y: hidden;
+    position: relative;
+}
+.udk{
+    color: grey;
+    width: 100%;
+    max-width: 250px;
+}
+.redaction-team{
+    text-align: center;
+    /* margin-bottom: 10px; */
+}
+.team{
+    text-align: center;
+    line-height: 1.3;
+}
+.authors{
+    text-align: center;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+.authorsNames{
+    text-align: center;
+    line-height: 1.3;
+}
+.participants{
+    text-align: center;
+}
+.marsu-illustration span{
+    font-weight: bold;
+}
+.book-info{
+    margin-top: 10px;
+}
+.udk2{
+    text-align: right;
+}
+.copyright{
+    text-align: right;
+    font-weight: bold;
+}
+/* ----page3 */
+.page-3{
+    display: flex;
+    gap: 20px; 
+ 
+}
+.page-3 span{
+    font-weight: bold;
+}
+.rector-img{
+    width: 100%;
+    max-width: 300px;
+    max-height: 70vh;
+}
+.page3-text{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    /* justify-content: space-between; */
+    position: relative;
+}
+.dear-friends{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.rector-bottom{
+    position:absolute;
+
+}
