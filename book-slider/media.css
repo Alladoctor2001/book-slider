@@ -1,18 +1,92 @@
 
+@media(max-width:1200px){
+    .page5-images{
+        display: none;
+    }
+    .mobile1{
+        display: block !important;
+    }
+    .page5-imagestwo{
+        display: flex;
+        flex-direction: column;
+    }
+    .page5-imagestwo img{
+        width: 100%;
+        max-width: 400px;
+    }
+    .page5-imagestwo p{
+        max-width: 400px;
+    }
+    .back5{
+        background-image: unset;
+    }
+}
+
+@media(max-width:1100px){
+    .page-6, .page-13{
+        flex-direction:column;
+        height: unset;
+        gap: 50px;
+    }
+    .page-13 p{
+        max-width: 300px;
+    }
+    .page-6 img, .page-13 img{
+        max-width: 300px;
+    }
+}
+@media(max-width:1000px){
+    .rector-class{
+        display: none;
+    }
+    .first-rector{
+        display: none;
+    }
+    .graduates{
+        display: none;
+    }
+    .page12-flex{
+        flex-direction: column;
+    }
+    .page12-graduates{
+        display: none;
+    }
+}
 @media(max-width:950px){
     .uniName{
         font-size: 25px;
     }
 }
 @media(max-width:800px){
+    .page-3{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .rector-img{
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
     .uniName{
         font-size: 25px;
     }
     .page3-text p{
         font-size: 14px;
     }
+    .page-10 img{
+        max-width: 200px;
+        height:100px ;
+    }
+    .page-10 p{
+        font-size: 12px;
+    }
+    .page-10{
+        grid-template-columns: 1fr;
+    }
 }
 @media(max-width:700px){
+   
     .uniName{
         font-size: 20px;
     }
@@ -25,31 +99,26 @@
     .dear-friends{
         font-size: 25px;
     }
-    .rector-img{
-        width: 100%;
-        max-width: 200px;
-    }
     .page3-text p{
         font-size: 12px;
     }
+    .steps{
+        font-size: 20px;
+    }
 }
 @media(max-width:600px){
-    .rector-img{
-        width: 100%;
-        max-width: 150px;
+    .page-7 p{
+        font-size: 14px;
+    }
+    .page-9 p{
+        font-size: 14px;
+    }
+    .page-11 p{
+        font-size: 14px;
     }
 }
 @media(max-width:500px){
-    .page-3{
-        gap: 10px;
-        flex-direction: column;
-    }
-    .rector-img{
-        width: 100px;
-        height: 100px;
-        display: block;
-        margin: 0 auto;
-    }
+   
     .dear-friends{
         font-size: 16px;
         margin-bottom: 5px;
@@ -62,6 +131,18 @@
     }
     .rector-bottom{
         bottom: 100px;
+    }
+    .page-5 p{
+        font-size: 12px;
+    }
+    .page-7 p{
+        font-size: 12px;
+    }
+    .page-8 p{
+        font-size: 12px;
+    }
+    .page-12 p{
+        font-size: 12px;
     }
 }
 @media(max-width:400px){
@@ -87,5 +168,25 @@
     }
     .adress{
         font-size: 16px;
+    }
+    .page-7 p{
+        font-size: 10px;
+    }
+    .page-9 p{
+        font-size: 12px;
+    }
+    .page-11 p{
+        font-size: 12px;
+    }
+}
+@media(max-width:350px){
+    .page-5 p{
+        font-size: 10px;
+    }
+    .page-9 p{
+        font-size: 10px;
+    }
+    .page-11 p{
+        font-size: 10px;
     }
 }

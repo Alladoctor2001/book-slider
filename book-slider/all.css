@@ -3,7 +3,7 @@
 margin: 0;
 padding: 0;}
 body{
-    background-color: blue;
+    background-color: #005392;
     padding-left:30px;
     padding-right: 30px;
 
@@ -185,13 +185,200 @@ body{
     flex-direction: column;
     height: 70vh;
     /* justify-content: space-between; */
-    position: relative;
+    /* position: relative; */
 }
 .dear-friends{
     text-align: center;
     margin-bottom: 10px;
 }
 .rector-bottom{
-    position:absolute;
+    position: absolute;
+    bottom: 30px;
+}
+/* ------page 4 */
+.page-4 h1{
+    text-align: center;
+}
+.page-5 p{
+    margin-bottom: 10px;
+}
+.page5-images{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;  
+    margin-top: 50px;
+    
+}
+.page5-images img{
+    max-width: 500px;
+    /* display: block;
+    margin: auto; */
+}
+.page5-images p{
+    max-width: 500px;
+    font-weight: bold;
+}
+.page5-imagestwo{
+    display: none;
+}
+.back5{
+    background-image: url(img/main-campus.jpg);
+    background-size: cover;
+    height: 70vh;
 
+}
+
+/* --------6 */
+.page-6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    gap: 10px;
+}
+.page-6 img{
+    width: 100%;
+    max-width: 500px;
+}
+.page-6 p{
+    text-align: center;
+    font-weight: bold 
+}
+/* --------- 7*/
+.first-rector{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.first-rector img{
+    max-width: 200px;
+}
+.first-rector p{
+    font-weight: bold;
+    max-width: 450px;
+}
+.anatomy-class{
+    margin-top: 30px;
+
+}
+.anatomy-class img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+.anatomy-class p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* --------page9 */
+.rector-class{
+    margin-top: 30px;
+}
+.rector-class img{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+.rector-class p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* --------page10 */
+.page-10{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content:center ;
+    align-items: center;
+    height: 70vh;
+}
+.grid-center{
+    margin: 0 auto;
+    max-width: 500px;
+}
+.grid-center p{
+    margin-top: 10px;
+    font-weight:bold;
+    text-align: center;
+    max-width: 400px;
+}
+.page-10 img{
+    display: block;
+    max-width: 300px;
+    height:200px ;
+    margin: auto;
+}
+.graduates{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.graduates p{
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.graduates img{
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+/* ------page-12 */
+.page12-flex{
+    display:flex;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+.page12-flex div{
+    max-width: 400px;
+}
+.page12-flex img{
+    max-width: 400px;
+    width: 100%;
+}
+.page12-flex p {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.page12-graduates img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.page12-graduates p{
+    margin-top: 10px;
+    text-align: center;
+    font-weight:bold;
+    
+}
+/* --------page13 */
+.page-13{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    gap: 10px;
+}
+.page-13 div{
+    max-width: 500px;
+}
+.page-13 img{
+    width: 100%;
+    max-width: 500px;
+}
+.page-13 p{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
 }
