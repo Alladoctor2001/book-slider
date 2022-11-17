@@ -1,4 +1,87 @@
-
+@media(max-width:1500px){
+    .first-rector img{
+        max-width: 100px;
+    }
+    .page5-images img{
+        max-width: 400px;
+    }
+    .page5-images p{
+        max-width: 400px;
+        text-align: center;
+    }
+    .graduates img{
+        max-width: 350px;
+    }
+    .page12-graduates img{
+        display: none;
+    }
+    .page12-graduates p{
+        display: none;
+    }
+    .page-30 img{
+        max-width: 300px;
+    }
+}
+@media(max-width:1400px){
+    .page5-images{
+        display: none;
+    }
+    .anatomy-class img{
+        max-width: 500px;
+    }
+    .rector-class img{
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    .page-10{
+        gap: 5px;
+        margin-top:-20px ;
+    }
+    .grid-center p{
+        font-size: 12px;
+    }
+    .page-14 p{
+        font-size:  12px;
+    }
+    .page14-flex{
+        margin-bottom: 5px;
+    }
+    .page-14 img{
+        max-width: 250px;
+        max-height: 150px;
+    }
+    .page-14 p{
+        max-width: 250px;
+    }
+    .ivshin{
+        max-width: 200px;
+    }
+    .ivshin-cont p{
+        font-size: 12px;
+    }
+    .team{
+        max-width: 300px;
+    }
+    .page20img-flex{
+        margin-top: 20px;
+    }
+    .lukhin-computer{
+        max-width: 300px;
+    }
+    .newp-flex {
+        margin-top: 30px;
+    }
+    .newp-flex img{
+        width: 100%;
+        max-width: 300px;
+    }
+    .page33-grid img{
+        max-width: 250px;
+    }
+    .happy-students{
+        max-width: 500px;
+    }
+}
 @media(max-width:1200px){
     .page5-images{
         display: none;
@@ -20,6 +103,18 @@
     .back5{
         background-image: unset;
     }
+    .page22-flex img{
+        max-width: 300px;
+    }
+    .newp-flex{
+        display: none;
+    }
+    .ticket{
+        display: none;
+    }
+    .stand-reading{
+        display: none;
+    }
 }
 
 @media(max-width:1100px){
@@ -34,6 +129,11 @@
     .page-6 img, .page-13 img{
         max-width: 300px;
     }
+    .lukhin-container{
+        display: none;
+    }
+
+
 }
 @media(max-width:1000px){
     .rector-class{
@@ -51,6 +151,73 @@
     .page12-graduates{
         display: none;
     }
+    .page15-flex{
+        display: none;
+    }
+    .sokolov{
+        max-width: 200px;
+    }
+    .ivshin-cont{
+        display: none;
+    }
+    .page17-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px ;
+    }
+    .page-17 img{
+        max-width: 200px;
+        max-height:200px ;
+
+    }
+    .page-17 p{
+        font-size: 16px;
+        max-width: 200px;
+    }
+    .page21-flex{
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .page21-flex img{
+        max-width: 100px;
+        max-height:100px;
+    }
+    .page21-flex p{
+        max-width: 200px;
+        display: block;
+        margin: auto;
+    }
+    .rector-friends{
+        display: none;
+    }
+    .page20img-flex{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .page20-images p{
+        font-size: 14px;
+    }
+    .page32-flex{
+        margin-top: 30px;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .statue{
+        display: none;
+    }
+    .center{
+        display: none;
+    }
+    .page33-grid{
+        grid-template-columns: 1fr;
+    }
+    .page-33 h2{
+        font-size: 16px;
+    }
 }
 @media(max-width:950px){
     .uniName{
@@ -58,6 +225,9 @@
     }
 }
 @media(max-width:800px){
+    .page27 p{
+        max-width: 200px;
+    }
     .page-3{
         gap: 10px;
         flex-direction: column;
@@ -83,6 +253,45 @@
     }
     .page-10{
         grid-template-columns: 1fr;
+    }
+    .page-14 p{
+        font-size: 14px;
+    }
+    .page14-flex{
+        flex-direction: column;
+    }
+    .page14-flex2{
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .page14-flex div{
+        margin:auto ;
+        display: block;
+
+    }
+    .page14-flex img{
+        display: block;
+        margin: auto;
+    }
+    .page-14 p{
+        margin-top: 1px;
+        margin-bottom: 15px;
+    }
+    .page-16 p{
+        font-size: 14px;
+    }
+    .page-20 p{
+        font-size: 14px;
+    }
+    .page22-flex img{
+        max-width: 200px;
+    }
+    .page-22 p{
+        font-size: 12px;
+    }
+    .page-23 p{
+        font-size:14px;
     }
 }
 @media(max-width:700px){
@@ -116,6 +325,36 @@
     .page-11 p{
         font-size: 14px;
     }
+    .anatomy-class img{
+        max-width: 200px;
+    }
+    .page12-flex img{
+        max-width: 300px;
+        margin: auto;
+        display: block;
+    }
+    .page12-flex div{
+        margin: auto;
+        display: block;
+    }
+    .page-15 p{
+        font-size: 14px;
+    }
+    .ansamble{
+        display: none;
+    }
+    .page-18 p{
+        font-size: 14px;
+    }
+    .page-20 p{
+        font-size: 12px;
+    }
+    .page22-flex img{
+        max-width: 150px;
+    }
+    .page-23 p{
+        font-size:12px;
+    }
 }
 @media(max-width:500px){
    
@@ -129,9 +368,9 @@
     .page-2 p{
         font-size: 14px;
     }
-    .rector-bottom{
+    /* .rector-bottom{
         bottom: 100px;
-    }
+    } */
     .page-5 p{
         font-size: 12px;
     }
@@ -143,6 +382,39 @@
     }
     .page-12 p{
         font-size: 12px;
+    }
+    .page-14 p{
+        font-size: 12px;
+    }
+    .page-16 p{
+        font-size: 12px;
+    }
+    .page-16 p{
+        font-size: 12px;
+    }
+    .page-18 p{
+        font-size: 12px;
+    }
+    .page22-flex{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .page-23 p{
+        font-size:10px;
+    }
+    .students-indians{
+        display: none;
+    }
+    .page32-flex{
+        max-width: 200px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .page32-flex{
+        margin-top: 10px;
+        margin: auto;
+        padding-top: 10px;
     }
 }
 @media(max-width:400px){
@@ -178,6 +450,24 @@
     .page-11 p{
         font-size: 12px;
     }
+    .page-9 p span{
+        display: none;
+    }
+    .page-5 p{
+        font-size: 10px;
+    }
+    .page-16 p{
+        font-size: 10px;
+    }
+    .page-18 p{
+        font-size: 10px;
+    }
+    .page-20 p{
+        font-size: 10px;
+    }
+    .page-23 span{
+        display: none;
+    }
 }
 @media(max-width:350px){
     .page-5 p{
@@ -190,3 +480,17 @@
         font-size: 10px;
     }
 }
+@media(max-height:750px){
+    .page-11 span{
+        display: none;
+    }
+    .ns{
+        display: none;
+    }
+    .ns-p{
+        display: none;
+    }
+}
+/* --------page 24 */
+
+

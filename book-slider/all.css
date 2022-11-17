@@ -206,7 +206,7 @@ body{
     display: flex;
     justify-content: space-between;
     bottom: 0px;  
-    margin-top: 50px;
+    margin-top: 30px;
     
 }
 .page5-images img{
@@ -381,4 +381,343 @@ body{
     width: 100%;
     max-width: 500px;
     margin: auto;
+}
+/* ------page14 */
+
+.page14-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.page14-flex img{
+    max-width: 300px;
+}
+.page14-flex p{
+    max-width: 300px;
+    font-weight: bold;
+    text-align:center ;
+}
+
+.page14-flex2{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.page14-flex2 img{
+    max-width: 300px;
+}
+.page14-flex2 p{
+    max-width: 300px;
+    font-weight: bold;
+    text-align:center ;
+}
+.page15-flex{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.page15-flex img{
+    max-width: 350px;
+}
+.page15-flex p{
+    max-width: 350px;
+    font-weight: bold;
+    text-align:center;
+}
+
+/* -----page16 */
+.sokolov-cont{
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+.sokolov{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+.sokolov-cont p{
+    text-align: center;
+    max-width: 350px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.ivshin{
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.ivshin-cont p{
+    text-align: center;
+    font-weight: bold;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+/* ----------page17 */
+
+.team{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+.team-cont p{
+    display: block;
+    margin:auto ;
+    max-width: 500px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.page17-flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.page17-flex img{
+    max-width: 300px;
+    max-height:200px ;
+}
+.page17-flex p{
+    text-align: center;
+    max-width: 300px;
+    font-weight: bold;
+}
+
+/* -----------19 */
+.page-19{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.page-19 img{
+    max-width: 200px;
+}
+.page-19 p{
+    max-width: 200px;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*  -------page21*/
+.page21-flex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.page-21 img{
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.page21-flex p{
+    max-width: 300;
+    text-align: center;
+    font-weight: bold;
+    max-width: 300px;
+}
+/* ----------page 22  */
+.page22-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.page22-flex img{
+    max-width: 500px;
+}
+.page-22 p{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+/* --------23 */
+.page27 img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.page27 p{
+    margin-top: 20px;
+    max-width: 300px;
+    text-align: center;
+    display: block;
+    margin:auto ;
+}
+/* page20-images */
+.rector-friends{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+.page20img-flex{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.page20img-flex img{
+    width: 100%;
+    max-width: 300px;
+}
+.page20img-flex p{
+    max-width: 300px;
+    text-align: center;
+    font-weight: bold;
+}
+/* page30 */
+.page-30{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    gap: 10px;
+}
+.page-30 img{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+.page-30 p{
+    margin-top: 10px;
+    max-width: 400px;
+    text-align: center;
+    font-weight: bold;
+}
+.extra{
+    gap: 50px;
+}
+
+.indians{
+    width: 100%;
+    max-width: 500px;
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+}
+
+.research-meeting{
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+.page-24 p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.from-india{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.lukhin-container{
+    margin-top: 30px;
+}
+.lukhin-computer{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+.lukhin-container p{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.newp-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.newp-flex img{
+    width: 100%;
+    max-width: 400px;
+}
+.page-31 img{
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    align-items: center;
+}
+
+.page32-flex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.page32-flex img{
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.page33-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+    align-items: center;
+    height: 70vh;
+}
+.page33-grid img{
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+}
+
+
+.page-33 h2{
+    text-align: center;
+}
+
+.happy-students{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ticket-class{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.ticket-class img{
+    max-width: 400px;
+    width: 100%;
+}
+
+.stand-reading{
+    margin-top: 50px;
+    display: flex ;
+    justify-content: space-around;
+
+}
+.stand-reading img{
+    max-width: 400px;
+}
+
+.ilvira{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
 }
