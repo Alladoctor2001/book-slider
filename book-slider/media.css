@@ -115,6 +115,19 @@
     .stand-reading{
         display: none;
     }
+    .page-35{
+        height: unset;
+        flex-direction: column;
+    }
+    .page-35 img{
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+    .onogev-cont p{
+        max-width: 300px;
+    }
 }
 
 @media(max-width:1100px){
@@ -218,6 +231,23 @@
     .page-33 h2{
         font-size: 16px;
     }
+    .page-40{
+        flex-direction: column;
+    }
+    .page-40 img{
+        max-width: 200px;
+        max-height:200px;
+        margin: auto;
+        display: block;
+    }
+    .page-40 p{
+        max-width: 200px;
+        text-align: center;
+        display: block;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 @media(max-width:950px){
     .uniName{
@@ -293,6 +323,18 @@
     .page-23 p{
         font-size:14px;
     }
+    .page-35 p{
+        font-size: 14px;
+    }
+    .vertical{
+        display: none;
+    }
+    .pro, .pro-flex{
+        font-size: 12px;
+    }
+    .pro1{
+        max-width: 150px;
+    }
 }
 @media(max-width:700px){
    
@@ -313,6 +355,10 @@
     }
     .steps{
         font-size: 20px;
+    }
+    .page-35 img{
+        width: 150px;
+        height: 150px;
     }
 }
 @media(max-width:600px){
@@ -354,6 +400,9 @@
     }
     .page-23 p{
         font-size:12px;
+    }
+    .page-35 p{
+        font-size: 12px;
     }
 }
 @media(max-width:500px){
@@ -416,6 +465,16 @@
         margin: auto;
         padding-top: 10px;
     }
+    .page-35 p{
+        font-size: 10px;
+    }
+    .off{
+        display: none;
+    }
+    .rec{
+        font-size:12px;
+    }
+    
 }
 @media(max-width:400px){
     .page3-text p{
@@ -468,6 +527,18 @@
     .page-23 span{
         display: none;
     }
+    .medical span{
+        display: none;
+    }
+    .super{
+        display: none;
+    }
+    .kaf{
+        display: none;
+    }
+    .ermeev{
+        display: none;
+    }
 }
 @media(max-width:350px){
     .page-5 p{
@@ -491,6 +562,6 @@
         display: none;
     }
 }
-/* --------page 24 */
+
 
 
