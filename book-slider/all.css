@@ -124,9 +124,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70vh;
-    overflow-y: hidden;
     position: relative;
+    gap: 10px;
 }
 .udk{
     color: grey;
@@ -222,7 +221,7 @@ body{
     display: none;
 }
 .back5{
-    background-image: url(img/main-campus.jpg);
+    background-image: url(img/main-campus.png);
     background-size: cover;
     height: 70vh;
 
@@ -296,7 +295,6 @@ body{
     gap: 10px;
     justify-content:center ;
     align-items: center;
-    height: 70vh;
 }
 .grid-center{
     margin: 0 auto;
@@ -365,7 +363,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70vh;
     gap: 10px;
 }
 .page-13 div{
@@ -497,13 +494,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 
 }
 .page-19 img{
     max-width: 200px;
 }
 .page-19 p{
+    margin-top: 10px;
     max-width: 200px;
     font-weight: bold;
     font-size: 14px;
@@ -612,6 +610,7 @@ body{
     max-width: 800px;
     display: block;
     margin: auto;
+    max-height: 70vh;
 }
 .page-24 p{
     text-align: center;
@@ -722,7 +721,6 @@ body{
     margin-top: 30px;
 }
 .page-35{
-    height: 70vh;
     align-items: center;
     display: flex;
     gap: 15px;
@@ -739,7 +737,6 @@ body{
 .exclusive{
     display: flex;
     align-items: center;
-    height: 70vh;
 }
 .science-right{
     text-align: right;
@@ -770,7 +767,6 @@ body{
 .page-40{
     display: flex;
     align-items: center;
-    height: 70vh;
     justify-content: space-around;
 }
 .page-40 img{
@@ -808,4 +804,12 @@ body{
     gap: 30px;
     justify-content: space-between;
     margin-bottom: 10px;
+}
+.schools-flex{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
 }

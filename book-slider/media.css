@@ -248,10 +248,24 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .schools-flex{
+        flex-direction: column;
+    }
+    .two-btns{
+        gap: 400px;
+    }
 }
 @media(max-width:950px){
     .uniName{
         font-size: 25px;
+    }
+}
+@media(max-width:900px){
+    .two-btns{
+        gap: 300px;
+    }
+    .btn{
+        font-size: 16px;
     }
 }
 @media(max-width:800px){
@@ -335,6 +349,15 @@
     .pro1{
         max-width: 150px;
     }
+
+    .arc{
+        display: none;
+    }
+    .wrapper{
+        background-image: url(img/back-mobile.png);
+        justify-content: flex-start;
+        padding-top: 50px;
+    }
 }
 @media(max-width:700px){
    
@@ -359,6 +382,9 @@
     .page-35 img{
         width: 150px;
         height: 150px;
+    }
+    .two-btns{
+        gap: 200px;
     }
 }
 @media(max-width:600px){
@@ -403,6 +429,9 @@
     }
     .page-35 p{
         font-size: 12px;
+    }
+    .two-btns{
+        gap: 100px;
     }
 }
 @media(max-width:500px){
@@ -474,7 +503,13 @@
     .rec{
         font-size:12px;
     }
-    
+    .two-btns{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .btn{
+        text-align: center;
+    }
 }
 @media(max-width:400px){
     .page3-text p{

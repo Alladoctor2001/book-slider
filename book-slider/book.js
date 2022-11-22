@@ -1,11 +1,12 @@
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
-
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
+  
 }
-
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -22,3 +23,13 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 }
+
+document.onkeydown = function(e) {
+  e = e || window.event;
+  if (e.keyCode == '37') {
+      plusSlides(-1) //left <- show Prev image
+  } else if (e.keyCode == '39') {
+      // right -> show next image
+      plusSlides(1)
+  }
+};

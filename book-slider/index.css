@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.wrapper{
+    min-height: 100vh;
+    background: url(img/back.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.arc{
+    background-image:url(img/arc.svg) ;
+    background-size: contain;
+    background-repeat:no-repeat ;
+    padding: 200px;
+    animation:spin 10s linear infinite;
+}
+
+@keyframes spin{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}	
+}
+.logotype{
+    position: absolute;
+    
+}
+
+.two-btns{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    gap: 500px;
+}
+.btn{
+    color: white;
+    font-size: 20px;
+    background-color: #E0294B;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+.btn:hover{
+    color: white;
+    background-color: #0057A3;
+}
